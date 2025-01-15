@@ -13,7 +13,7 @@
 https://hub.docker.com/r/kereis/traefik-certs-dumper</Overview>
   <Category>Productivity: Other:</Category>
   <WebUI>
-  <TemplateURL/>
+  <TemplateURL/>https://github.com/kosaferi/unraidtemplates/blob/master/traefik-cert-dumper<TemplateURL/>
   <Icon>https://e7.pngegg.com/pngimages/606/115/png-clipart-computer-icons-dump-truck-angle-logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
