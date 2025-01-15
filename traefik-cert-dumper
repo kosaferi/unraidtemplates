@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>traefik-cert-dumper</Name>
+  <Repository>kereis/traefik-certs-dumper</Repository>
+  <Registry>https://hub.docker.com/r/kereis/traefik-certs-dumper/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/kereis/traefik-certs-dumper/discussions</Support>
+  <Project>https://github.com/kereis/traefik-certs-dumper</Project>
+  <Overview>Dumps Let's Encrypt certificates of a specified domain to .pem and .key files which Traefik stores in acme.json.
+https://hub.docker.com/r/kereis/traefik-certs-dumper</Overview>
+  <Category>Productivity: Other:</Category>
+  <WebUI>
+  <TemplateURL/>
+  <Icon>https://e7.pngegg.com/pngimages/606/115/png-clipart-computer-icons-dump-truck-angle-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1678983834</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="traefic acme file" Target="/traefik" Default="" Mode="ro" Description="traefik acme file" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/traefik</Config>
+  <Config Name="traefic cert file" Target="/output" Default="" Mode="rw" Description="traefik generated cert file" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/traefik/certs</Config>
+</Container>
