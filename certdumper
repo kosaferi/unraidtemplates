@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>traefik-cert-dumper</Name>
-  <Repository>kereis/traefik-certs-dumper</Repository>
+  <Name>certdumper</Name>
+  <Repository>ghrc.io/kereis/traefik-certs-dumper</Repository>
   <Registry>https://hub.docker.com/r/kereis/traefik-certs-dumper/</Registry>
   <Network>bridge</Network>
   <MyIP/>
@@ -13,8 +13,8 @@
 https://hub.docker.com/r/kereis/traefik-certs-dumper</Overview>
   <Category>Productivity: Other:</Category>
   <WebUI>
-  <TemplateURL/>https://github.com/kosaferi/unraidtemplates/blob/master/traefik-cert-dumper<TemplateURL/>
-  <Icon>https://e7.pngegg.com/pngimages/606/115/png-clipart-computer-icons-dump-truck-angle-logo.png</Icon>
+  <TemplateURL/>https://github.com/kosaferi/unraidtemplates/blob/master/certdumper<TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/nuxt_js.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
